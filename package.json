@@ -1,0 +1,23 @@
+{
+  "name": "client-signup-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/handler.js",
+  "dependencies": {
+    "pg": "^8.5.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.3.5",
+    "sequelize-cli": "^6.2.0"
+  },
+  "devDependencies": {
+    "serverless-offline": "^6.8.0"
+  },
+  "scripts": {
+    "deploy": "sls deploy",
+    "start": "node src/handler.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Sarthak Joshi",
+  "license": "ISC"
+}
